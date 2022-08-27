@@ -12,6 +12,7 @@ html, body {
     margin: 0;
 
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 .ozone {
@@ -29,7 +30,7 @@ html, body {
 }
 
 .ozone .horizontal-menu-bar {
-    width: 100vw;
+    width: 100%;
     padding: 1rem 0;
 
     background-color: var(--shiny-black);
@@ -64,5 +65,11 @@ html, body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+}
+
+.ozone .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
