@@ -75,3 +75,19 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
+
+.ozone .s-icon {
+    font-size: 15px;
+}
+
+.ozone .m-icon {
+    font-size: 30px;
+}
+
+.ozone .l-icon {
+    font-size: 50px;
+}
+
+.ozone .xl-icon {
+    font-size: 75px;
+}
