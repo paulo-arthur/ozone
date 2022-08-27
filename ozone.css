@@ -32,6 +32,8 @@ html, body {
     margin: 2rem;
 }
 
+/*Horizontal Menu*/
+
 .ozone .horizontal-menu {
     width: 100%;
     padding: 1rem 0;
@@ -63,6 +65,8 @@ html, body {
     color: var(--default-white);
 }
 
+/*Row & Column*/
+
 .ozone .row {
     display: flex;
     flex-direction: row;
@@ -75,6 +79,8 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
+
+/*Icons*/
 
 .ozone .s-icon {
     font-size: 15px;
@@ -90,4 +96,18 @@ html, body {
 
 .ozone .xl-icon {
     font-size: 75px;
+}
+
+/*Inputs Style*/
+
+.ozone .text-input {
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.ozone .text-input::placeholder {
+    text-align: center;
 }
