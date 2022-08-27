@@ -1,0 +1,41 @@
+:root {
+    --dark-default: #212529;
+    --shiny-dark: #313235;
+    --dark-default: #212529;
+    --dark-shadow: #14141495;
+
+    --light-default: #EAF6FF;
+    --shiny-light: #e0e3ea;
+    --light-shadow: #2d2d2e4c;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.dark-theme {
+    background-color: var(--dark-default);
+    color: var(--light-default);
+}
+
+.light-theme {
+    background-color: var(--light-default);
+    color: var(--dark-default);
+}
+
+.dark-theme .div{
+    background-color: var(--shiny-dark);
+    box-shadow: 5px 5px 15px var(--dark-shadow);
+
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.light-theme .div{
+    background-color: var(--shiny-light);
+    box-shadow: 5px 5px 15px var(--light-shadow);
+
+    padding: 2rem;
+    border-radius: 10px;
+}
