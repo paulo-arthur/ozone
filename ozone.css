@@ -101,7 +101,7 @@ html, body {
 /*Inputs Style*/
 
 .ozone .text-input {
-    margin: 1rem;
+    margin: 0.5rem 0;
     padding: 0.7rem 1rem;
 
     border-radius: 10px;
@@ -110,4 +110,15 @@ html, body {
 
 .ozone .text-input::placeholder {
     text-align: center;
+}
+
+/*Buttons Style*/
+.ozone .button {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--shiny-black);
+    color: var(--default-white);
+
+    margin: 0.5rem 0;
+    padding: 0.7rem 1rem;
 }
