@@ -1,0 +1,42 @@
+.header-img {
+    font-size: 5rem;
+    padding: 10rem 0;
+    margin-bottom: 7rem;
+    background-image: url('https://user-images.githubusercontent.com/49375534/187055614-b454cd58-665b-4f13-8f6b-9a05996ac42e.jpg');
+}
+
+.about-box {
+    width: 25vw;
+    text-align: left;
+    margin-bottom: 7rem;
+}
+
+.about-box h1 {
+    font-size: 3rem;
+}
+
+.about-box p {
+    font-size: 1.2rem;
+}
+
+#docs h1 {
+    font-size: 3rem;
+}
+
+#docs h2 {
+    font-size: 1.8rem;
+}
+
+#docs div {
+    width: 90vw;
+    align-items: initial;
+}
+
+#docs .row div {
+    width: 50vw;
+    margin: 0 10rem;
+}
+
+#footer label {
+    margin-top: 2rem;
+}
